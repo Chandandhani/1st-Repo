@@ -12,4 +12,4 @@ WORKDIR $PROJECT_HOME
 
 CMD ["java", "-Dspring.data.mongodb.uri=mongodb://mongo:27017/spring-mongo","-Djava.security.egd=file:/dev/./urandom","-jar","./spring-boot-mongo.jar"]
 
-##Adding
+
